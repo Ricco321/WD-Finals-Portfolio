@@ -153,10 +153,10 @@ WD-ProjectName
 ## Resources
 
 | Title | Purpose | Link |
-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-| ChatGPT | For generating code snippets, design ideas, explanations, and writing help |https://chatgpt.com/|
-| Youtube | For watching tutorials and guides related to HTML, CSS, and design practices|https://www.youtube.com/|
-| Google | For quick searches on syntax, concepts, examples, and troubleshooting   |https://www.google.com/|
-| Google Fonts | To select and embed custom web fonts that enhance typography and design| https://fonts.google.com/|
-| Pinterest | 	For gathering visual inspiration and UI layout ideas|https://ph.pinterest.com/|
-| W3 Schools| For referencing HTML/CSS tutorials, syntax explanations, and code examples |https://www.w3schools.com/|
+|-|-|-|
+| ChatGPT | For generating code snippets, design ideas, explanations, and writing help |https://chatgpt.com/ |
+| Youtube | For watching tutorials and guides related to HTML, CSS, and design practices| https://www.youtube.com/ |
+| Google | For quick searches on syntax, concepts, examples, and troubleshooting | https://www.google.com/ |
+| Google Fonts | To select and embed custom web fonts that enhance typography and design | https://fonts.google.com/|
+| Pinterest | For gathering visual inspiration and UI layout ideas|https://ph.pinterest.com/ |
+| W3 Schools | For referencing HTML/CSS tutorials, syntax explanations, and code examples |https://www.w3schools.com/ |
