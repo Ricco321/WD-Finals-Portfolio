@@ -69,6 +69,11 @@ margin: 20px 0;
         font-weight: 500;
         color: white;
         font-weight: 500;
+
+        p
+        {
+          text-align: center;
+        }
     }
 
     .btn
