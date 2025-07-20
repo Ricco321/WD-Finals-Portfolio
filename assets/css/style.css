@@ -77,8 +77,9 @@ margin: 20px 0;
         border: 2px solid black;
         border-radius: 30px;
         text-decoration: none;
-        color: white;
+        color: black;
         box-shadow: 3px 3px 3px black;
+        font-weight: bold;
         transition: transform 0.3s ease-in-out, background 0.3s ease, color 0.3s ease;
     }
     .btn:hover
@@ -86,6 +87,7 @@ margin: 20px 0;
         transform: scale(1.05);
         background: #000;
         transition: 0.3s ease-in-out;
+        color: white;
     }
 
     .btn:active
@@ -159,107 +161,127 @@ margin: 20px 0;
     /* border: 2px solid cyan; */
 }
 
-.footer
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2rem;
-    background-color: rgba(18, 18, 19, 0.9);
-    color: white;
 
-    .mid {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* Or center if you want it centered */
-  gap: 1rem;
+.footer {
+  background: rgba(18, 18, 19, 0.95);
+  width: 100%;
+  padding-top: 40px;
+  color: #fff;
 }
 
-.list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-
-.list a {
-  color: white;
-  text-decoration: none;
-  font-size: 1rem;
-  transition: color 0.2s;
-}
-
-.list a:hover {
-  color: #aaa;
-}
-}
-
-.favicon {
-  height: 10rem;
-  width: 10rem;
-}
-
-.left-side {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* 👈 Center all child items (logo, quote, socmed) */
-  gap: 1.5rem;
-  text-align: center;
-}
-
-.socmed {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 1rem;
-}
-
-.socmed p {
-  margin-right: 1rem;
-}
-
-.socmed a {
-    text-decoration: none;
-  color: rgb(24, 24, 24);
-  font-size: 1.5rem;
+.footer-content {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 1rem;
 }
 
-.fb, .gh, .yt
+.logo
 {
-    background-color: white;
-    border-radius: 50%;
-    width: 2.5rem;
-    height: 2.5rem;
-    display: flex;
+    height: 10rem;
+    width: 10rem;
+}
+
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #cacdd2;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+  padding: 0;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.socials a i {
+  font-size: 1.2rem;
+  width: 20px;
+}
+
+.socials a:hover i {
+  color: aqua;
+}
+
+/* Footer bottom with flex */
+.footer-bottom {
+  background: #000;
+  width: 100%;
+  padding: 20px 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.footer-bottom-left p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.footer-bottom-left p a {
+  color: #44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* Footer menu */
+.footer-menu ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-menu ul li a {
+  color: #cfd2d6;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-menu ul li a:hover {
+  color: #27bcda;
+}
+
+/* Responsive: stack footer content on small screens */
+@media (max-width: 600px) {
+  .footer-bottom {
+    flex-direction: column;
     align-items: center;
+    text-align: center;
+  }
+
+  .footer-menu ul {
     justify-content: center;
-    transition: transform 0.3s;
+  }
 }
-
-.fb {
-  background-color: #3b5998;
-  color: white;
-}
-
-.gh {
-  background-color: white;
-  border: 2px solid black;
-}
-
-.yt
-{
-    background-color: #ff0000;
-    color: white;
-}
-
-.fb:hover, .gh:hover, .yt:hover
-{
-    transform: scale(1.1);
-}
-
 
 @keyframes fall
 {
