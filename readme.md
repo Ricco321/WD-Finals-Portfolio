@@ -54,11 +54,11 @@
 
 ### What is the project
 
-WD-Finals-Portfolio is a final web development project that involves designing and building a multi-page personal portfolio website using HTML and CSS. It serves as a culminating activity that allows students to apply their knowledge of basic web development principles through practical, creative, and self-expressive design. The website showcases the student’s identity, skills, interests, and previous works in a structured and visually engaging format.
+WD-Finals-Portfolio is a final web development project that involves designing and building a multi-page personal portfolio website using HTML, CSS, and JavaScript. It serves as a culminating activity that allows students to apply their knowledge of basic web development principles through practical, creative, and self-expressive design. The website showcases the student’s identity, skills, interests, and previous works in a structured and visually engaging format.
 
 ### What is the purpose
 
-The purpose of this project is to assess and strengthen students' understanding of web development by requiring them to design and implement a fully functional, multi-section portfolio website. It encourages them to apply best practices in layout, structure, and styling using only HTML and CSS. The project also helps students express their personality, skills, and creative approach through their website content and visual design.
+The purpose of this project is to assess and strengthen students' understanding of web development by requiring them to design and implement a fully functional, multi-section portfolio website. It encourages them to apply best practices in layout, structure, and styling using HTML, CSS, and Javascript. The project also helps students express their personality, skills, and creative approach through their website content and visual design.
 
 
 
@@ -85,6 +85,8 @@ This project uses:
 - HTML for structuring the content of each web page, including headings, images, text blocks, and navigation elements.
 
 - CSS for styling the visual appearance of the site — including layout design, colors, fonts, transitions, responsive design, and visual presentation.
+
+- JavaScript for dynamic background animation.
 
 ### Key Components
 1. MultiPage Website – A website composed of multiple HTML pages such as index.html, about.html, and projects.html, allowing for content to be organized and presented in a logical, accessible manner.
@@ -114,6 +116,7 @@ This project uses:
 ### Technology
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 
 ## Rules, Practices and Principles
