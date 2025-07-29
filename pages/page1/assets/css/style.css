@@ -36,12 +36,13 @@ body
   display: none;
   flex-direction: row;
   padding: 1rem;
-  gap: 3rem;
+  gap: 4rem;
 
   a
   {
     text-decoration: none;
     color: white;
+    font-size: 1.3rem;
   }
 }
 
@@ -51,6 +52,7 @@ body
   font-weight: bold;
   text-decoration: 4px underline;
   cursor: default;
+  font-size: 1.3rem;
 }
 
 #menu-toggle:checked ~ .navbar
@@ -106,15 +108,16 @@ body
 
   .greetings
   {
-    display: inline-block;
+    display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    padding: 6rem 1rem;
-    gap: 2rem;
+    padding: 6rem 3rem;
+    gap: 3rem;
+    margin-left: 5%;
 
     h2
     {
-      font-size: ;
+      font-size: small;
       color: white;
       text-shadow: 2px 2px 4px black;
       text-transform: uppercase;
@@ -122,15 +125,103 @@ body
 
     h1
     {
-      display: inline-block;
-      padding: 3rem 1rem;
-      font-size: 4rem;
+      font-size: 3rem;
       font-style: italic;
       font-weight: 500;
       color: white;
       text-shadow: 2px 2px 4px black;
     }
+
+    p
+    {
+      color: white;
+    }
   }
+
+  .links
+  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 1rem;
+  }
+
+  .btn-1
+  {
+    color: white;
+    background: rgb(36, 193, 255);
+    padding: 1em 2rem;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: inline-block;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  text-shadow: 0px 3px 3px black;
+  
+  &:hover 
+{
+  transform: scale(1.05);
+}
+  }
+
+  .btn-2
+  {
+    color: white;
+    background: rgb(248, 119, 119);
+    padding: 1em 2rem;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: inline-block;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  text-shadow: 0px 3px 3px black;
+  
+  &:hover 
+{
+  transform: scale(1.05);
+}
+  }
+  
+  .btn-3
+  {
+    color: white;
+    background: rgb(141, 252, 76);
+    padding: 1em 2rem;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: inline-block;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  text-shadow: 0px 3px 3px black;
+  
+  &:hover 
+{
+  transform: scale(1.05);
+}
+  }
+
+  .btn-4 {
+  color: white;
+  background: rgb(146, 89, 236);
+  padding: 1em 2rem;
+  border-radius: 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: inline-block;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  text-shadow: 0px 3px 5px black;
+
+  &:hover 
+{
+  transform: scale(1.05);
+}
+}
+
+
 
 
 

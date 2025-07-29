@@ -21,8 +21,9 @@ body
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 15dvh;
   width: 100dvw;
-  background-color: rgb(18, 18, 27, 0.9);
+  background-color: rgb(17, 18, 20);
   gap: 30rem;
 }
 
@@ -31,12 +32,13 @@ body
   display: none;
   flex-direction: row;
   padding: 1rem;
-  gap: 3rem;
+  gap: 4rem;
 
   a
   {
     text-decoration: none;
     color: white;
+    font-size: 1.3rem;
   }
 }
 
@@ -46,6 +48,7 @@ body
   font-weight: bold;
   text-decoration: 4px underline;
   cursor: default;
+  font-size: 1.3rem;
 }
 
 #menu-toggle:checked ~ .navbar
@@ -88,7 +91,9 @@ body
 .about
 {
   position: relative;
-  height: 120dvh;
+  display: flex;
+  flex-direction: column;
+  height: 150dvh;
   width: 100dvw;
   display: flex;
   justify-content: center;
@@ -96,6 +101,7 @@ body
   padding: 4rem 2rem;
   color: white;
   z-index: 1;
+  overflow: hidden;
 
   .about-container
   {
