@@ -12,6 +12,22 @@ body
   font-family: 'Roboto', sans-serif;
 }
 
+.waves-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#waves-canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
 .header *,
 .header
 {
@@ -23,9 +39,12 @@ body
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
-  background-color: rgb(18, 18, 27);
-  gap: 70rem;
+  height: 15dvh;
+  width: 100dvw;
+  background-color: rgb(17, 18, 20);
+  gap: 30rem;
+  position: relative;
+  z-index: 1;
 }
 
 .navbar
@@ -33,12 +52,13 @@ body
   display: none;
   flex-direction: row;
   padding: 1rem;
-  gap: 3rem;
+  gap: 4rem;
 
   a
   {
     text-decoration: none;
     color: white;
+    font-size: 1.3rem;
   }
 }
 
@@ -48,6 +68,7 @@ body
   font-weight: bold;
   text-decoration: 4px underline;
   cursor: default;
+  font-size: 1.3rem;
 }
 
 #menu-toggle:checked ~ .navbar
@@ -77,8 +98,9 @@ body
 }
 
 .association {
+  position: relative;
+  z-index: 1;
   height: 100vh;
-  background: linear-gradient(135deg, #1d2b64, #f8cdda);
   color: white;
   display: flex;
   align-items: center;
@@ -124,6 +146,8 @@ body
   background: rgba(18, 18, 19, 1);
   width: 100%;
   color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .footer-content
